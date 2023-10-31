@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-xbsm
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0095-tenant/ci1t-43256-0095-app/devfile-sample-xbsm@sha256:8219e955b11a577e1bd9bdd1c938596681877085df758508716deb10920a1553
+        name: my-nodejs
+        resources: {}
+status: {}

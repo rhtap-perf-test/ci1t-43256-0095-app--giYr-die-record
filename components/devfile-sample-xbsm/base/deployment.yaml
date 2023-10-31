@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xbsm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0095-tenant/ci1t-43256-0095-app/devfile-sample-xbsm@sha256:8219e955b11a577e1bd9bdd1c938596681877085df758508716deb10920a1553
         name: my-nodejs
         ports:
         - containerPort: 3001
